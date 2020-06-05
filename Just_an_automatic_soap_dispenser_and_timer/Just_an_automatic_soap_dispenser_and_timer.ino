@@ -15,8 +15,8 @@
 
 #define MUSIC 1 // enable music via the buzzer 0=OFF and 1=ON
 
-#include <LedControl.h>   //By 
-#include <LiquidCrystal_PCF8574.h> //By http://www.mathertel.de/Arduino/LiquidCrystal_PCF8574.aspx
+#include <LedControl.h>   //By Eberhard Fahle
+#include <LiquidCrystal_PCF8574.h> //By Matthias Hertel
 #include <Wire.h>
 #include <Servo.h>
 
