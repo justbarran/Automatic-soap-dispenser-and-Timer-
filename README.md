@@ -3,14 +3,14 @@
 
 ![Main](/images/IMG_3429.JPG) 
 
-##Please credit me
+_Please credit me_
 May 2020
 DIY video @: www.youtube.com/c/justbarran
-Like Share Comment SUBSCRIBE
+*Like Share Comment SUBSCRIBE*
 
 ## Circuit Diagram
 
-![Circuit](/Circuit Diagram/Just a Soap V2 circuit.png) 
+![Circuit](/circuit/JustaSoapV2circuit.png) 
 
 This example code is in the public domain.
 
