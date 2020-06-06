@@ -1,16 +1,18 @@
 /* automatic soap and wash timer 
 * by justbarran
 * Please credit me
-* May 2020
+* May 2020 Full video @
 * www.youtube.com/c/justbarran
+* Feel free to Like Share Comment and SUBSCRIBE
 * 
-* 
-* Like Share Comment SUBSCRIBE
 * This example code is in the public domain.
 * Other Codes used:
 * https://create.arduino.cc/projecthub/GeneralSpud/passive-buzzer-song-take-on-me-by-a-ha-0f04a8
 * http://wayoda.github.io/LedControl/
 * http://www.mathertel.de/Arduino/LiquidCrystal_PCF8574.aspx
+* 
+* i2c Scanner if you are not sure about the adress
+* https://playground.arduino.cc/Main/I2cScanner/
 */
 
 #define MUSIC 1 // enable music via the buzzer 0=OFF and 1=ON
@@ -20,7 +22,7 @@
 #include <Wire.h>
 #include <Servo.h>
 
-#define lcd_addr  0x3f      //LCD i2c ADDRESS
+#define lcd_addr  0x3f    //LCD i2c ADDRESS
 #define voltage_const 1.5 //I am using a R1=22k and R2=10k for 16V -> 5V VOLTAGE devider
                             // (R1+R2)/R2
 #define voltage_low   7.0   //Low voltage value                   
@@ -57,8 +59,8 @@ LedControl lc=LedControl(max_DIN,max_CLK,max_LOAD,1);
 // CS pin
 // 1 as we are only using 1 MAX7219
 
-Servo mySoap; 
-Servo myTimer;
+Servo mySoap;   //dispenser servo
+Servo myTimer;  // analog display servo
 
 //Music notes
 const int c = 261;
