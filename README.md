@@ -1,12 +1,16 @@
 # Automatic soap dispenser and Timer 
- Arduino based Automatic soap dispenser and Timer 
+##Arduino based Automatic soap dispenser and Timer 
 
-Please credit me
+![GitHub Logo](/images/IMG_3429.JPG) 
+
+##Please credit me
 May 2020
 DIY video @: www.youtube.com/c/justbarran
-
-
 Like Share Comment SUBSCRIBE
+
+##Circuit Diagram
+
+![GitHub Logo](/Circuit Diagram/Just a Soap V2 circuit.png) 
 
 This example code is in the public domain.
 
